@@ -1,0 +1,545 @@
+@media only screen and (max-width: 1144px){
+    .container{
+        max-width: 990px;
+    }
+    .search-food-box{
+        margin-left: 32px;
+    }
+}
+
+@media only screen and (max-width: 1110px){
+    .container{
+        max-width: 950px;
+    }
+}
+
+@media only screen and (max-width: 1090px){
+    .container{
+        max-width: 900px;
+    }
+    .navigation{
+        grid-template-columns: 54px 711px 184px;
+    }
+    .menu{
+        margin-left: 50px;
+    }
+    .search-food-box{
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .container{
+        max-width: 870px;
+    }
+    .container-boxes{
+        grid-template-columns: repeat(3,auto);
+        gap: 20px;
+    }
+    .search-food-box{
+        margin-left: 130px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .search-food-box{
+        width: 1000px;
+    }
+    .salad-img-search-box{
+        margin-left: -930px;
+    }
+    .title-search-box{
+        width: 700px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 969px){
+    .container{
+        max-width: 770px;
+    }
+    .navigation{
+        grid-template-columns: 68px 715px 184px;
+    }
+    .container-foods-item-info{
+        grid-template-columns: repeat(3,auto);
+    }
+    .search-food-box{
+        margin-left: 220px;
+    }
+}
+
+@media only screen and (max-width: 834px){
+    .container{
+        max-width: 800px;
+    }
+    .navigation{
+        grid-template-columns: repeat(3,auto);
+    }
+    .navigation-btns{
+        justify-self: center;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0px;
+        left: -202px;
+        background-color: white;
+        text-align: center;
+        border-right: 1px solid #C90000;
+        border-bottom: 1px solid #C90000;
+        padding: 15px 30px ;
+    }
+    .menu-icon{
+        display: block;
+        justify-self: end;
+    }
+    .header-bottom{
+        grid-template-columns: repeat(2, auto);
+        margin-top: 150px;
+        align-items: center;
+    }
+    .burger-img-side-right{
+        width: 371px;
+        margin-top: -151px;
+    }
+    .title-side-left{
+        font-size: 34px;
+    }
+    .text-side-left{
+        font-size: 15px;
+        width: 229px;
+    }
+    .container-foods-item-info{
+        grid-template-columns: repeat(2,auto);
+        justify-content: center;
+    }
+    .remove-1{
+        display: none;
+    }
+    .remove-2{
+        display: none;
+    }
+    .container-boxes{
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+    }
+    .container-introduction-app{
+        width: 750px;
+        height: 760px;
+        flex-direction: column-reverse;
+    }
+    .side-left-introduction-app{
+        margin-bottom: -18px;
+    }
+    .btns-introduction-app{
+        margin-bottom: 150px;
+    }
+    .title-small-introduction-app{
+        font-size: 17px;
+    }
+    .title-big-introduction-app{
+        font-size: 30px;
+        
+    }
+    .text-introduction-app{
+        font-size: 12px;
+    }
+    .search-food-box{
+        width: 679px;
+        margin-left: 0;
+    }
+    .title-search-box{
+        font-size: 30px;
+        width: 512px;
+        margin-top: -55px;
+    }
+    .salad-img-search-box{
+        width: 140px;
+        margin-left: -622px;
+    }
+    .text-search-box{
+        margin-top: -10px;
+    }
+    .burger-img-search-box{
+        width: 160px;
+        margin-top: 59px;
+        margin-left: -370px;
+    }
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(3,auto auto auto);
+        width: 430px;
+        margin-top: 200px;
+    }
+    .div-side-left-footer{
+        margin-top: 360px;
+        position: relative;
+        left: 193px;
+    }
+    .div-side-mid-footer{
+        margin-left: -330px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .container-boxes{
+        grid-template-columns: repeat(2, 310px);
+    }
+}
+
+@media only screen and (max-width: 730px){
+    .search-food-box{
+        width: 650px;
+        margin-left: 0;
+    }
+    .title-search-box{
+        font-size: 28px;
+        width: 499px;
+        margin-top: -55px;
+    }
+    .salad-img-search-box{
+        width: 130px;
+        margin-left: -622px;
+    }
+    .text-search-box{
+        margin-top: -10px;
+    }
+    .burger-img-search-box{
+        width: 140px;
+        margin-top: 75px;
+        margin-left: -370px;
+    }
+
+}
+
+@media only screen and (max-width: 716px){
+    .burger-img-side-right{
+        width: 351px;
+        margin-top: -151px;
+    }
+    .container-side-left{
+        width: 200px;
+    }
+    .title-side-left{
+        width: 220px;
+        font-size: 30px;
+    }
+    .text-side-left{
+        font-size: 15px;
+        width: 229px;
+    }
+    .add-food-div{
+        width: 120px;
+        height:40px;
+    }
+    .order-food-btn{ 
+        width: 170px;
+        margin-left: 130px;
+    }
+    .search-food-box{
+        margin-left: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 670px){
+    .container-foods-item-info{
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 641px){
+    .container{
+        max-width: 600px;
+    }
+    .container-foods-item-info{
+        grid-template-columns: repeat(1,auto);
+        gap: 5px;
+    }
+    .icon-list-of-foods{
+        width: 20px;
+    }
+    .remove-1{
+        display: block;
+    }
+    .remove-3{
+        display: none;
+    }
+    .remove-4{
+        display: none;
+    }
+    .container-boxes{
+        grid-template-columns: repeat(1, 350px);
+        justify-content: center;
+    }
+    .title-main-bottom{
+        justify-self: start;
+        font-size: 32px;
+    }
+    .title-foods-list{
+        font-size: 32px;
+    }
+    .introduction-app{
+        justify-self: center;
+    }
+    .container-introduction-app{
+        width: 430px;
+        height: 860px;
+        border-top-left-radius: 500px;
+        border-top-right-radius: 500px;
+        border-bottom-right-radius: 0px;
+        text-align: center;
+        align-items: end;
+    }
+    .title-small-introduction-app{
+        width: 372px;
+    }
+    .title-big-introduction-app{
+        width: 375px;
+        
+    }
+    .text-introduction-app{
+        width: 409px;
+    }
+    .btn-introduction-app{
+        padding-right: 20px;
+    }
+
+    .search-food-box{
+        width: 407px;
+        margin-left: 0;
+    }
+    .title-search-box{
+        font-size: 18px;
+        width: 320px;
+        margin-top: 0px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .search-input{
+        width: 377px;
+        height: 50px;
+    }
+    .btn-search-box{
+        width: 140px;
+        height: 44px;
+        margin-left: -144px;
+        margin-top: 3px;
+    }
+    .salad-img-search-box{
+        width: 130px;
+        margin-left: -350px;
+    }
+    .text-search-box{
+        font-size: 12px;
+        margin-top: 5px;
+        width: 320px;
+        text-align: center;
+    }
+    .burger-img-search-box{
+        width: 130px;
+        margin-top: 48px;
+        margin-left: -178px;
+    }
+    .footer-container{
+        margin-left: -100px;
+    }
+}
+
+@media only screen and (max-width: 625px){
+    .burger-img-side-right{
+        width: 330px;
+        margin-top: -151px;
+    }
+    .container-side-left{
+        width: 170px;
+    }
+    .title-side-left{
+        width: 200px;
+        font-size: 25px;
+    }
+    .text-side-left{
+        font-size: 13px;
+        width: 210px;
+    }
+    .add-food-div{
+        width: 100px;
+        height: 30px;
+    }
+    .order-food-btn{
+        width: 150px;
+        margin-left: 110px;
+    }
+    .lsits-of-foods{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 601px){
+    .lsits-of-foods{
+        font-size: 12px;
+        justify-content: space-around;
+    }
+    .title-foods-list{
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    .burger-img-side-right{
+        width: 300px;
+        margin-top: -151px;
+    }
+    .container-side-left{
+        width: 150px;
+    }
+    .title-side-left{
+        width: 170px;
+        font-size: 22px;
+    }
+    .text-side-left{
+        font-size: 11px;
+        width: 200px;
+    }
+    .add-food-div{
+        width: 100px;
+        height: 30px;
+    }
+    .order-food-btn{
+        width: 130px;
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 546px){
+
+    .lsits-of-foods:first-child{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(2){
+        width: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(3){
+        width: 128px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(4){
+        width: 156px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(5){
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .container{
+        max-width: 500px;
+    }
+    .header-bottom{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+    .title-side-left{
+        font-size: 36px;
+        width: 403px;
+        justify-self: center;
+        text-align: center;
+    }
+    .text-side-left{
+        width: 403px;
+        font-size: 16px;
+        justify-self: center;
+        text-align: center;
+    }
+    .burger-img-side-right{
+        width: 350px;
+        margin-left: 100px;
+    }
+    .order-food-side-left{
+       display: grid;
+       position: relative;
+       top: 350px;
+       justify-content: center;
+    }
+    .div-title-foods-list{
+        margin-top: 200px;
+    }
+    .container-boxes{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 493px){
+
+    .lsits-of-foods:first-child{
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(2){
+        width: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(3){
+        width: 128px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(4){
+        width: 156px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lsits-of-foods:nth-child(5){
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .lsits-of-foods{
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .container{
+        max-width: 400px;
+    }
+    .lsits-of-foods{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .container{
+        max-width: 310px;
+    }
+    .lsits-of-foods{
+        font-size: 9px;
+    }
+}

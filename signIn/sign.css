@@ -1,0 +1,117 @@
+@font-face {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 200;
+    src: url('./../fonts/PoppinsLatin-Medium.woff') format('woff');
+}
+
+.container{
+    max-width: 1000px;
+    margin: 17px auto;
+    padding: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.form{
+    width: 400px;
+    border: 1px solid #C90000;
+    border-radius: 20px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(201,0,0,1) 50%);
+    margin-top: 50px;
+}
+
+.title-form{
+    color: #C90000;
+    font-family: poppins;
+    font-weight: 100;
+    font-size: 40px;
+    margin-left: -48px;
+}
+
+.inputs{
+    outline: none;
+    border: 1px solid #C90000;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: poppins;
+    padding: 5px;
+    color: #C90000;
+    
+}
+
+.p-ask-quest{
+    font-family: poppins;
+    color: #C90000;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.link-form{
+    text-decoration: none;
+    color: orangered;
+    transition: 0.3s;
+}
+.link-form:hover{
+    color: white;
+}
+
+.navigation{
+    display: grid;
+    grid-template-columns: 54px 632px 187px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    transition: 0.5s; 
+}
+
+.menu-icon{
+    display: none;
+    cursor: pointer;
+}
+
+.menu-item-links{
+    color: #7D7C7C;
+    transition: 0.3s;
+    font-family: poppins;
+    font-weight: 100;
+}
+.menu-item-links:hover{
+    color: #C90000;
+}
+
+.navigation-btn-one{
+    color: #C90000;
+    border: 1px solid #C90000;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 100px;
+    font-family: poppins;
+}
+
+.navigation-btn-sec{
+    color: white;
+    border: 1px solid #C90000;
+    font-weight: 600;
+    padding: 10px 16px;
+    border-radius: 100px;
+    background-color: #C90000;
+    font-family: poppins;
+}
