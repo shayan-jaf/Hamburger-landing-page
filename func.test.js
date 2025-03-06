@@ -1,3 +1,3 @@
-let isLogin = userName => {
-    return userName
+let isLogin = user => {
+    return user
 }
